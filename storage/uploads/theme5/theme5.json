@@ -1,0 +1,461 @@
+[
+    {
+        "section_name": "Home-Header",
+        "section_slug": "homepage-header",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Title",
+            "field_slug": "homepage-header-title",
+            "field_help_text": "Please add title text here",
+            "field_default_text": "Home Accessories",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Sub text",
+            "field_slug": "homepage-sub-text",
+            "field_help_text": "Please add sub text here",
+            "field_default_text": "There is only that moment and the incredible certainty that everything under the sun has been written by one hand only.",
+            "field_type": "text area"
+          },
+          {
+            "field_name": "Button",
+            "field_slug": "homepage-header-button",
+            "field_help_text": "Please add button text here",
+            "field_default_text": "Start shopping",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Background Image",
+            "field_slug": "homepage-header-bg-image",
+            "field_help_text": "",
+            "field_default_text": "theme5/header/header_img_5.png",
+            "field_type": "photo upload"
+          }
+        ]
+      },
+    {
+      "section_name": "Home-Promotions",
+      "section_slug": "homepage-promotions",
+      "section_enable": "on",
+      "array_type": "multi-inner-list",
+      "loop_number": "3",
+      "inner-list": [
+        {
+          "field_name": "Font Icon",
+          "field_slug": "homepage-promotions-font-icon",
+          "field_help_text": "Please click here to find font... fontawesome.com",
+          "field_default_text": "<i class='fa fa-tags'></i>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Title",
+          "field_slug": "homepage-promotions-title",
+          "field_help_text": "Please add title here",
+          "field_default_text": "Many promotions",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Description",
+          "field_slug": "homepage-promotions-description",
+          "field_help_text": "Please add description here",
+          "field_default_text": "From pixel-perfect icons and scalable vector graphics, to full user flows",
+          "field_type": "text area"
+        }
+      ]
+    },
+    {
+        "section_name": "Home-Email-Subscriber",
+        "section_slug": "homepage-email-subscriber",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Subscriber Title",
+            "field_slug": "homepage-subscriber-title",
+            "field_help_text": "Please add title here",
+            "field_default_text": "Always on time",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Subscriber Description",
+            "field_slug": "homepage-subscriber-description",
+            "field_help_text": "Please add description here",
+            "field_default_text": "There is only that moment and the incredible certainty that everything under the sun has been written by one hand only.",
+            "field_type": "text area"
+          },
+          {
+            "field_name": "Subscribe Button Text",
+            "field_slug": "homepage-subscriber-button",
+            "field_help_text": "Please add button text here",
+            "field_default_text": "Subscribe",
+            "field_type": "text"
+          }
+        ]
+      },
+
+    {
+      "section_name": "Home-Categories",
+      "section_slug": "homepage-categories",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "homepage-categories-title",
+          "field_help_text": "Please add title text here",
+          "field_default_text": "Categories",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Description",
+          "field_slug": "homepage-categories-description",
+          "field_help_text": "Please add description text here",
+          "field_default_text": "There is only that moment and the incredible certainty that everything under the sun has been written by one hand only.",
+          "field_type": "text area"
+        }
+      ]
+    },
+    {
+      "section_name": "Home-Testimonial",
+      "section_slug": "homepage-testimonial",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Main Heading",
+          "field_slug": "homepage-testimonial-heading",
+          "field_help_text": "Please add heading text here",
+          "field_default_text": "Testimonial",
+          "field_type": "text"
+        },
+        {
+            "field_name": "Heading Sub Text",
+            "field_slug": "homepage-testimonial-sub-heading",
+            "field_help_text": "Please add sub text here",
+            "field_default_text": "There is only that moment and the incredible certainty that everything under the sun has been written by one hand only.",
+            "field_type": "text area"
+        }
+      ]
+    },
+    {
+      "section_name": "Home-Testimonial",
+      "section_slug": "homepage-testimonial",
+      "section_enable": "on",
+      "array_type": "multi-inner-list",
+      "loop_number": "3",
+      "inner-list": [
+        {
+            "field_name": "Enable Testimonial",
+            "field_slug": "homepage-testimonial-card-enable",
+            "field_help_text": "",
+            "field_default_text": "Enable Testimonial",
+            "field_type": "checkbox"
+        },
+        {
+          "field_name": "Image",
+          "field_slug": "homepage-testimonial-card-image",
+          "field_help_text": "",
+          "field_default_text": "theme3/header/avatar.png",
+          "field_type": "photo upload"
+        },
+        {
+          "field_name": "Title",
+          "field_slug": "homepage-testimonial-card-title",
+          "field_help_text": "Please add title here",
+          "field_default_text": "Rajodiya Infotech",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Sub Text",
+          "field_slug": "homepage-testimonial-card-sub-text",
+          "field_help_text": "Please add sub text here",
+          "field_default_text": "CEO Rajodiya Infotech",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Description",
+          "field_slug": "homepage-testimonial-card-description",
+          "field_help_text": "Please add sub description here",
+          "field_default_text": "Nowadays, it isnt great uncommon to see lenders rapidly adopting a new digital lending strategy to make most popular streamline the web process",
+          "field_type": "text area"
+        }
+      ]
+    },
+    {
+        "section_name": "Home-Brand-Logo",
+        "section_slug": "homepage-brand-logo",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Brand Logo",
+            "field_slug": "homepage-brand-logo-input",
+            "field_help_text": "",
+            "field_default_text": "theme5/footer/footer_logo.png",
+            "field_type": "multi file upload"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Footer Logo",
+            "field_slug": "homepage-footer-logo",
+            "field_help_text": "",
+            "field_default_text": "theme5/footer/footer_logo.png",
+            "field_type": "photo upload"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+              "field_name": "Enable Quick Link 1",
+              "field_slug": "homepage-quick-link-enable",
+              "field_help_text": "",
+              "field_default_text": "on",
+              "field_type": "checkbox"
+          },
+          {
+            "field_name": "Footer Quick Link Header Name 1",
+            "field_slug": "homepage-footer-header-quick-link-name-1",
+            "field_help_text": "",
+            "field_default_text": "Theme Pages",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "4",
+        "inner-list": [
+          {
+            "field_name": "Quick Link",
+            "field_slug": "homepage-header-quick-link-name-1",
+            "field_help_text": "Please add link name here",
+            "field_default_text": "Home Pages",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Quick Link Url",
+            "field_slug": "homepage-header-quick-link-1",
+            "field_help_text": "Please add link here",
+            "field_default_text": "#",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+              "field_name": "Enable Quick Link 2",
+              "field_slug": "homepage-quick-link-enable",
+              "field_help_text": "",
+              "field_default_text": "on",
+              "field_type": "checkbox"
+          },
+          {
+            "field_name": "Footer Quick Link Header Name 2",
+            "field_slug": "homepage-footer-header-quick-link-name-2",
+            "field_help_text": "",
+            "field_default_text": "About",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "4",
+        "inner-list": [
+          {
+            "field_name": "Quick Link",
+            "field_slug": "homepage-header-quick-link-name-2",
+            "field_help_text": "Please add link name here",
+            "field_default_text": "Blog",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Quick Link Url",
+            "field_slug": "homepage-header-quick-link-2",
+            "field_help_text": "Please add link here",
+            "field_default_text": "#",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Footer Quick Link Header Name 3",
+            "field_slug": "homepage-footer-header-quick-link-name-3",
+            "field_help_text": "",
+            "field_default_text": "Company",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Enable Quick Link 3",
+            "field_slug": "homepage-quick-link-enable",
+            "field_help_text": "",
+            "field_default_text": "on",
+            "field_type": "checkbox"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "4",
+        "inner-list": [
+          {
+            "field_name": "Quick Link",
+            "field_slug": "homepage-header-quick-link-name-3",
+            "field_help_text": "Please add link name here",
+            "field_default_text": "Terms and Policy",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Quick Link Url",
+            "field_slug": "homepage-header-quick-link-3",
+            "field_help_text": "Please add link here",
+            "field_default_text": "#",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Footer Quick Link Header Name 4",
+            "field_slug": "homepage-footer-header-quick-link-name-4",
+            "field_help_text": "",
+            "field_default_text": "Company",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Enable Quick Link 4",
+            "field_slug": "homepage-quick-link-enable",
+            "field_help_text": "",
+            "field_default_text": "on",
+            "field_type": "checkbox"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-1",
+        "section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "2",
+        "inner-list": [
+          {
+            "field_name": "Quick Link",
+            "field_slug": "homepage-header-quick-link-name-4",
+            "field_help_text": "Please add link name here",
+            "field_default_text": "Terms and Policy",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Quick Link Url",
+            "field_slug": "homepage-header-quick-link-4",
+            "field_help_text": "Please add link here",
+            "field_default_text": "#",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-2",
+        "section_slug": "home-footer-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Footer Note",
+            "field_slug": "homepage-footer-2-note",
+            "field_help_text": "Please add footer note here",
+            "field_default_text": "2021 My Store. All rights reserved",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-2",
+        "section_slug": "home-footer-2",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+          {
+            "field_name": "Social Link Icon",
+            "field_slug": "homepage-footer-2-social-icon",
+            "field_help_text": "Please click here to find font... fontawesome.com",
+            "field_default_text": "<i class='fab fa-youtube'></i>",
+            "field_type": "text"
+          },
+          {
+            "field_name": "Social Link",
+            "field_slug": "homepage-footer-2-social-link",
+            "field_help_text": "Please add social link here",
+            "field_default_text": "https://www.youtube.com/",
+            "field_type": "text"
+          }
+        ]
+      },
+      {
+        "section_name": "Home-Footer-2",
+        "section_slug": "home-footer-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Store Custom JS",
+            "field_slug": "homepage-footer-2-custom-js",
+            "field_help_text": "Please add custom js here",
+            "field_default_text": "console.log('Hello World!');",
+            "field_type": "text area"
+          }
+        ]
+      }
+  ]

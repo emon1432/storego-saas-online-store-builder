@@ -1,0 +1,149 @@
+:root {
+    --green: #94CE79;
+    --white: #ffffff;
+}
+
+.navbar-nav .top-header-text i, .icon-phone i, .icon-font i, .card-product .wishlist-icon i,
+.card .btn-icon i, .p-rate a i, .box-space .text-right i {
+    color: var(--green) !important;
+}
+.card-product .pcart-icon i {
+    color: var(--white) !important;
+}
+
+.svg-color {
+    fill: var(--green) !important;
+}
+
+.text-primary {
+    color: var(--green) !important;
+}
+
+.bg-primary {
+    background: var(--green) !important;
+}
+
+.bg-green {
+    background: var(--green) !important;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--green) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--green) !important;
+}
+.form-control:focus {
+	border-color: var(--secondary) !important;
+}
+.my-cart a:hover {
+	 color: var(--green) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--green);
+    color: var(--green) !important;
+}
+
+
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
+
+.btn-primary:hover {
+    color: var(--white);
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.product-box .card-product:hover .bg-primary svg>path {
+    fill: var(--green) !important;
+}
+
+.product-box .card-product:hover .static-rating .text-gray>path {
+    fill: var(--green) !important;
+}
+
+header .nav-heart .badge-pill {
+    background: var(--white);
+    color: var(--secondary);
+}
+
+header .nav-secondary .nav-heart .badge-pill {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--green) !important;
+}
+
+.p-tablist .nav-tabs .nav-item .nav-link.active {
+    border-color: var(--green);
+    background: var(--green);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover{
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--green) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--green) !important;
+}
+
+.s-p-total {
+    color: var(--green) !important;
+}
+
+.my-cart-section .custom-checkbox .custom-control-label {
+    font-weight: 600;
+    color: #AFAFAF;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--green) !important;
+    background-color: var(--green) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--green) !important;
+}
+
+.input-primary::placeholder {
+    color: var(--green) !important;
+}
+
+.box-primary {
+    border-color: var(--green) !important;
+}
+
+footer{
+    background: #EFF0EC;
+}
+footer .footer-social a{
+    background: #E8E8E8;
+}
+footer .footer-social a:hover{
+    background: var(--primary);
+}
+
+.icon.text-secondary.promotions-icons:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
